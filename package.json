@@ -1,0 +1,23 @@
+{
+  "name": "dockest-example",
+  "version": "2.0.1",
+  "private": true,
+  "scripts": {
+    "test": "ts-node ./dockest"
+  },
+  "dependencies": {
+    "pg": "^7.17.1",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/pg": "^7.14.1",
+    "@types/sequelize": "4.28.8",
+    "dockest": "^2.0.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
